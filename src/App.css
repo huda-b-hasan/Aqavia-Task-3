@@ -1,0 +1,76 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.addcomment{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  background-color: rgba(169, 169, 169, 0.253);
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+.addcomment button{
+  background-color: rgb(47, 255, 158);
+}
+.comment{
+  padding: 20px;
+  border: 2px solid mediumpurple;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 70%;
+  background-color: rgba(212, 204, 226, 0.562);
+}
+.comment h2{
+  margin-block:10px;
+}
+.comment div{
+  margin-top: 10px;
+}
+button{
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(95, 93, 93);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comment .delete{
+  background-color: firebrick; 
+  margin-right: 10px;
+}
+.comment .edit{
+  background-color: rgb(231, 233, 102);
+}
+form{
+  background-color: bisque;
+  border: 2px solid rgb(177, 113, 238);
+  border-radius: 10px;
+  padding: 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+form input{
+  margin-left: 5px;
+}
+form input,form label{
+  margin-block: 10px;
+}
+form button{
+  background-color: rgb(240, 153, 243);
+  margin: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 10px;
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+}
